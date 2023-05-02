@@ -39,17 +39,6 @@ button, input, select, textarea {
   line-height: inherit;
 }
 
-.card {
-  border-top: 5px solid #702422;
-  border-bottom: 5px solid #702422;
-  border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-  color: #702422;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 40%;
-}
-
 .card-portefolio {
   background-color: rgba(112, 37, 34, 0.8941176471);
   border: 1px solid #ccc;
@@ -70,6 +59,11 @@ button, input, select, textarea {
 .card-portefolio p {
   font-size: 1em;
   line-height: 1.4;
+}
+
+.card-portefolio:hover {
+  background-color: rgba(112, 37, 34, 0.3647058824);
+  color: #ffdead;
 }
 
 form {
@@ -323,6 +317,7 @@ main #aboutme {
   padding: 0px 10px;
   text-align: center;
   background-image: url("../img/about-bg.jpg");
+  background-size: contain;
   height: 60vh;
   align-items: center;
 }
@@ -330,12 +325,9 @@ main #aboutme article {
   margin-top: 15vh;
 }
 main #aboutme article h1 {
-  font-size: 1, 9rem;
+  font-size: 2rem;
   margin-bottom: 10px;
-}
-main #aboutme article h2 {
-  font-size: 1, 2rem;
-  margin-bottom: 30px;
+  color: #ffffff;
 }
 main #aboutme article a {
   border-radius: 2px;

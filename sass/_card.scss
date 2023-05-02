@@ -1,13 +1,13 @@
-.card {
-    border-top: 5px solid #702422;
-    border-bottom: 5px solid #702422;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    color: #702422;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 40%;
-}
+// .card {
+//     border-top: 5px solid #702422;
+//     border-bottom: 5px solid #702422;
+//     border-radius: 5px;
+//     background-color: rgb(255, 255, 255);
+//     color: #702422;
+//     padding-top: 50px;
+//     padding-bottom: 50px;
+//     width: 40%;
+// }
 
 .card-portefolio {
     background-color: #702522e4;
@@ -32,4 +32,9 @@
         font-size: 1em;
         line-height: 1.4;
     }
+}
+
+.card-portefolio:hover {
+    background-color: #7025225d;
+    color: #ffdead;
 }

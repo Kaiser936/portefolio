@@ -7,6 +7,8 @@ main {
         padding: 0px 10px;
         text-align: center;
         background-image: url('../img/about-bg.jpg');
+        background-size: contain;
+        
         height: 60vh;
         align-items: center;
         
@@ -14,12 +16,9 @@ main {
             margin-top: 15vh;
             
             h1{
-                font-size: 1,9rem;
+                font-size: 2rem;
                 margin-bottom: 10px;
-            } 
-            h2{
-                font-size: 1,2rem;
-                margin-bottom: 30px;
+                color: #ffffff;
             }
             a {
                 border-radius: 2px;
