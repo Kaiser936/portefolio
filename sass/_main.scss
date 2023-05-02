@@ -1,0 +1,118 @@
+main {
+@include displayFlexColumn();
+
+    #aboutme {
+        @include displayFlexColumn();
+        margin-top: 70px;
+        padding: 0px 10px;
+        text-align: center;
+        background-image: url('../img/about-bg.jpg');
+        height: 60vh;
+        align-items: center;
+        
+        article {
+            margin-top: 15vh;
+            
+            h1{
+                font-size: 1,9rem;
+                margin-bottom: 10px;
+            } 
+            h2{
+                font-size: 1,2rem;
+                margin-bottom: 30px;
+            }
+            a {
+                border-radius: 2px;
+                background: #ffdead;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+            }
+        }
+    }
+
+    #profil {
+        @include displayFlexColumn();
+        padding: 50px 40px;
+        text-align: center;
+        background-color: #ffdead;
+
+        h1{
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #702422;
+        }
+
+        img {
+            width: 15%;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-size: 1rem;
+            color: #702422;
+        }
+    }
+
+    #competences {
+        @include displayFlexColumn();
+        padding: 50px 40px;
+        text-align: center;
+        color: #702422;
+
+        h1{
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 300px;
+            font-size: 2rem;
+            .back{
+                @include displayFlexColumn();
+                i{
+                    font-size: 1.5rem;
+                    padding: 0.8rem 0rem;
+                }  
+            }
+            .front{
+                @include displayFlexColumn();
+                i{
+                    font-size: 1.5rem;
+                    padding: 0.8rem 0rem;
+                }    
+            }
+        }
+    }
+
+    #portefolio{
+        @include displayFlexColumn();
+        padding: 50px 40px;
+        text-align: center;
+        background-color: #ffdead;
+
+        h1{
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #702422;
+        }
+        .container{
+            @include displayFlexRow();
+            flex-wrap: wrap;
+        }
+    }
+
+    #contact{
+        @include displayFlexColumn();
+        padding: 50px 40px;
+        text-align: center;
+        color: #702422;
+
+        h1{
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #702422;
+        }
+    }
+}

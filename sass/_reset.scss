@@ -1,0 +1,41 @@
+    /* Reset CSS */
+
+    /* Réinitialiser les marges et les remplissages */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Réinitialiser les polices */
+    body {
+        font-family: 'Titillium Web';
+        font-size: 1rem;
+    }
+    
+    /* Réinitialiser les listes */
+    ul, ol {
+        list-style: none;
+    }
+    
+    /* Réinitialiser les liens */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    /* Réinitialiser les tableaux */
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    /* Réinitialiser les éléments d'entrée */
+    button, input, select, textarea {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    
