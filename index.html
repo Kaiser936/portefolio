@@ -15,19 +15,19 @@
 <body>
 
     <header>
-        <img src="img/logo.png" alt="logo soufiane mohamad" class="logo">
+        <nav>
+            <div class="toggle">
+                <i class="fa-solid fa-bars ouvrir"></i>
+                <i class="fa-solid fa-xmark fermer"></i>
+            </div>
 
-        <nav class="navbar dark-mode" role="navigation">   
-            <ul class="navbar__links">
-                <li class="navbar__link first"><a href="#aboutme">Accueil</a></li>
-                <li class="navbar__link second"><a href="#profil">Profil</a></li>
-                <li class="navbar__link third"><a href="#competences">Competences</a></li>
-                <li class="navbar__link four"><a href="#portefolio">Portfolio</a></li>
-                <li class="navbar__link fifth"><a href="#contact">Contact</a></li>
-            </ul>   
-            <button class="burger">
-                <span class="bar"></span>  
-            </button>   
+            <ul class="menu">
+                <li><a href="#aboutme">Accueil</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#portefolio">Portefolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -35,8 +35,10 @@
         
         <section id="aboutme">
             <article>
-                <h1 class="text-anim">Lorem ipsum dolor sit amet.</h1>
+                <h1 class="text-anim"></h1>
                 <a href="#portefolio">Découvrir mes réalisations</a>
+                <a href="#portefolio">Télécharger mon CV</a>
+
             </article>
         </section>
 
@@ -88,21 +90,18 @@
                 <div class="container"> 
                     <a href="">
                         <div class="card-portefolio">
-                        <!-- <img src="img/site1.png" alt=""> -->
                         <h2>Site OnePage</h2>
                         <p>Premier site réalisé avec HTML, CSS</p>
                         </div>
                     </a>
                     <a href="">
                         <div class="card-portefolio">
-                        <!-- <img src="img/site1.png" alt=""> -->
                         <h2>Site OnePage</h2>
                         <p>Premier site réalisé avec HTML, CSS</p>
                         </div>
                     </a>
                     <a href="">
                         <div class="card-portefolio">
-                        <!-- <img src="img/site1.png" alt=""> -->
                         <h2>Site OnePage</h2>
                         <p>Premier site réalisé avec HTML, CSS</p>
                         </div>
@@ -142,7 +141,11 @@
         <p> Copyright ©2023 Soufiane MOHAMAD </p>
     </footer>
     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

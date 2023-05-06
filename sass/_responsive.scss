@@ -1,16 +1,25 @@
 /*  Medium device */
 @media screen and (min-width:768px) {
-    // header {
-    //     height: 98px;
-    // }
-}
+    header
+    {
+        height: 12vh !important;
+    }
 
-
-/*  Desktop device */
-@media screen and (min-width:1199px) {
-    // header {
-    //     height: 98px;
-    // }
-
+    main{
+        #competences {
+            .container{
+                display: flex;
+                flex-direction: row !important;
+                justify-content: space-evenly;
+            }
+        }
+    
+        #portefolio {
+            .container{
+                justify-content: space-evenly !important;
+            }
+            
+        }
+    }
 
 }
