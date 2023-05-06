@@ -6,7 +6,7 @@ main {
         margin-top: 70px;
         padding: 0px 10px;
         text-align: center;
-        background-image: url('../img/about-bg.jpg');
+        background-image: url('../img/about-bg.jpg') !important;
         background-size: contain;
         
         height: 60vh;
