@@ -1,45 +1,3 @@
-main {
-
-    #presentation {
-        article {
-            margin-top: 15vh;
-            h1{
-                font-size: 2rem;
-                font-family: 'Rubik', sans-serif;
-                color: #000000;
-            }
-
-            i{
-                font-size: 2rem;
-            }
-            i:hover {
-                color: #fd7e14;
-            }
-            .btn-primary {
-                background-color: #fd7e14 !important;
-                border-color: #fd7e14;
-            }
-            .btn-primary:hover {
-                background-color: #ffbb83 !important;
-                border-color: #fd7e14;
-        }
-    }
-}
-
-    #contact{
-        @include displayFlexColumn();
-        padding: 50px 40px;
-        text-align: center;
-        color: black;
-
-        h1{
-            font-size: 3rem;
-            margin-bottom: 20px;
-            color: black;
-        }
-    }
-}
-
 .about-me-heading {
     color: orange;
     font-weight: bold;
@@ -64,13 +22,13 @@ main {
 
 .position-relative {
     position: relative;
-  }
-  .position-absolute-top {
+}
+.position-absolute-top {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-  }
+}
 
 .pre-link {
     font-size: 2rem;
