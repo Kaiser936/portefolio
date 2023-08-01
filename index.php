@@ -213,9 +213,12 @@
         <section id="contact" class="pt-5">
                 <h4 class="about-me-heading text-center text-uppercase">Contactez Moi !</h4>
 
-                <p class="text-muted">N'hésitez pas à me contacter, je suis à votre disposition pour plus d'informations.</p>
+                <p class="text-muted text-center">N'hésitez pas à me contacter, je suis à votre disposition pour plus d'informations.</p>
                 
-                <a href="contact.php"><button type="button" class="btn btn-success">C'est par ici !</button></a>
+                <div class="d-flex justify-content-center mb-5">
+                    <a href="contact.php"><button type="button" class="btn btn-success text-center">C'est par ici !</button></a>
+                </div>
+
 
             </section>
         </div>

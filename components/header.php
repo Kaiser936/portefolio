@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white" style="z-index: 1030;">
     <div class="container">
         <!-- Éléments de gauche (Texte du logo) -->
-        <a class="navbar-brand font-weight-bold bg-danger" href="index.php">SOUFIANE MOHAMAD</a>
+        <a class="navbar-brand font-weight-bold text-danger" href="index.php">SOUFIANE MOHAMAD</a>
 
         <!-- Bouton de bascule (pour les petits écrans) -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
