@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Je suis Soufiane Mohamad, je suis développeur web sur Paris. J'ai réalisé ce portfolio dans le but de vous présenter mes compétences ainsi que mes expériences.">
+    <meta name="author" content="Soufiane Mohamad">
+    <meta name="keywords" content="soufiane mohamad, Portfolio, Portfolio Soufiane Mohamad, Soufiane Mohamad portfolio, développeur web, portfolio développeur web, soufiane mohamad développeur web, développeur web, développeur web paris, Portfolio développeur web Paris, Webmaster, developpeur web Paris, portfolio développeur web ile de france">
+    <meta name="title" content="Soufiane Mohamad - Portfolio développeur web">
+    <title title="Soufiane Mohamad">Soufiane Mohamad - Portefolio Développeur Web</title>
+    <!-- logo icon -->
     <link rel="icon" type="image/png" href="img/logo.png">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/adc35cf513.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Soufiane Mohamad - Portefolio Développeur Web</title>
+    
 </head>
 <body>
     <div>
