@@ -34,7 +34,7 @@
             
         <!-- Présentation -->
         <section id="presentation" class="pt-5 mb-5 min-100-vh">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center mt-5">
                     <div class="col-md-8 text-center">
                         <h1 class="title">Développeur Full-Stack 👋🏿</h1>
                         <p>Hello, Je suis Soufiane Mohamad. Un développeur Full-Stack passionné basé à Paris, en France. 📍 </p>
@@ -45,7 +45,7 @@
                         <a href="https://drive.google.com/file/d/1jFOJjKhLvsdobBVa3EucFvsPGr3rZdPJ/view?usp=sharing" target="_blank"class="cv" ><button class="btn btn-primary mb-5">Télécharger mon CV</button></a>
                     </div>
             
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center">
                         <img src="img/logo.png" alt="photo de profil" class="img-fluid">
                     </div>
                     
