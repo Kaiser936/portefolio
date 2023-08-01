@@ -39,6 +39,10 @@ button, input, select, textarea {
   line-height: inherit;
 }
 
+p {
+  font-family: "Merryweather";
+}
+
 @media (max-width: 767.98px) {
   .flex-container {
     display: flex;
