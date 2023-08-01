@@ -9,7 +9,7 @@
 
 /* Réinitialiser les polices */
 body {
-  font-family: "Titillium Web";
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
 
@@ -39,29 +39,27 @@ button, input, select, textarea {
   line-height: inherit;
 }
 
-/*  Medium device */
-@media screen and (min-width: 768px) {
-  header {
-    height: 12vh !important;
-  }
-  main #competences .container {
+@media (max-width: 767.98px) {
+  .flex-container {
     display: flex;
-    flex-direction: row !important;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  main #portefolio .container {
-    justify-content: space-evenly !important;
+  .flex-item {
+    flex: 0 0 20%; /* Ajustez la largeur souhaitée des images sur mobile */
+    max-width: 20%;
+    margin-bottom: 10px; /* Ajoutez un espacement entre les images */
   }
 }
 .card-portefolio {
-  background-color: rgba(112, 37, 34, 0.8941176471);
+  background-color: black;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   margin: 15px;
   width: 100%;
   height: 200px;
-  color: #ffdead;
+  color: white;
 }
 .card-portefolio img {
   width: 100%;
@@ -76,8 +74,8 @@ button, input, select, textarea {
 }
 
 .card-portefolio:hover {
-  background-color: rgba(112, 37, 34, 0.3647058824);
-  color: #ffdead;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 form {
@@ -112,7 +110,7 @@ textarea {
 }
 
 button[type=submit] {
-  background-color: #cc0000;
+  background-color: #87CEEB;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -124,15 +122,15 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-  background-color: #990000;
+  background-color: #4169E1;
 }
 
 header {
   position: fixed;
   width: 100%;
   height: 10vh;
-  background: #702422;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   padding: 0 2rem;
 }
 
@@ -148,22 +146,33 @@ nav {
   display: none;
 }
 
+.nav-titre {
+  /* Ajoutez ici les styles souhaités pour votre titre */
+  margin-right: auto; /* Modification */
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  width: 550px;
+  width: 400px;
 }
 
 .menu li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
+  font-weight: 700;
+}
+
+.menu li a:hover {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 2px;
 }
 
 @media all and (max-width: 768px) {
   header {
-    background: #fafafa;
+    background: #ffffff;
   }
   .toggle {
     display: block;
@@ -172,13 +181,12 @@ nav {
     position: relative;
     z-index: 20;
   }
-  .logo {
-    position: relative;
-    z-index: 20;
+  .nav-titre {
+    display: none;
   }
   .ouvrir {
     display: block;
-    color: #702422;
+    color: white;
   }
   .fermer {
     display: none;
@@ -195,7 +203,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #702422;
+    background: #000000;
     flex-direction: column;
     padding: 2rem;
     justify-content: space-around;
@@ -213,121 +221,86 @@ nav {
     transform: translateX(0);
   }
 }
-main {
-  display: flex;
-  flex-direction: column;
-}
-main #aboutme {
-  display: flex;
-  flex-direction: column;
-  margin-top: 70px;
-  padding: 0px 10px;
-  text-align: center;
-  background-color: #702422;
-  background-size: contain;
-  height: 60vh;
-  align-items: center;
-}
-main #aboutme article {
+main #presentation article {
   margin-top: 15vh;
 }
-main #aboutme article h1 {
+main #presentation article h1 {
   font-size: 2rem;
-  margin: 30px 0px;
-  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
 }
-main #aboutme article a {
-  border-radius: 2px;
-  background: #ffdead;
-  color: rgb(0, 0, 0);
-  padding: 10px;
+main #presentation article i {
+  font-size: 2rem;
 }
-main #profil {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 40px;
-  text-align: center;
-  background-color: #ffdead;
+main #presentation article i:hover {
+  color: #fd7e14;
 }
-main #profil h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #702422;
+main #presentation article .btn-primary {
+  background-color: #fd7e14 !important;
+  border-color: #fd7e14;
 }
-main #profil img {
-  width: 15%;
-  margin-bottom: 20px;
-}
-main #profil p {
-  font-size: 1rem;
-  color: #702422;
-}
-main #competences {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 40px;
-  text-align: center;
-  color: #702422;
-}
-main #competences h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-main #competences .container {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.4rem;
-}
-main #competences .container .back {
-  display: flex;
-  flex-direction: column;
-}
-main #competences .container .back i {
-  font-size: 1rem;
-  padding: 0.8rem 0rem;
-}
-main #competences .container .front {
-  display: flex;
-  flex-direction: column;
-}
-main #competences .container .front i {
-  font-size: 1rem;
-  padding: 0.8rem 0rem;
-}
-main #portefolio {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 40px;
-  text-align: center;
-  background-color: #ffdead;
-}
-main #portefolio h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #702422;
-}
-main #portefolio .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+main #presentation article .btn-primary:hover {
+  background-color: #ffbb83 !important;
+  border-color: #fd7e14;
 }
 main #contact {
   display: flex;
   flex-direction: column;
   padding: 50px 40px;
   text-align: center;
-  color: #702422;
+  color: black;
 }
 main #contact h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #702422;
+  color: black;
+}
+
+.about-me-heading {
+  color: orange;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.about-me-t {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.about-me-p {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7137254902);
+}
+
+.portefolio-t {
+  color: orange;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.pre-link {
+  font-size: 2rem;
+}
+
+.portefolio {
+  font-weight: 900;
+  color: rgba(187, 187, 187, 0.1803921569);
 }
 
 footer {
-  background-color: #ffdead;
-  color: #702422;
+  background-color: black;
+  color: white;
   text-align: center;
   padding: 40px;
 }

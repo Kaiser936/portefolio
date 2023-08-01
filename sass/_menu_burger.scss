@@ -10,24 +10,34 @@ nav {
     display: none;
 }
 
+.nav-titre {
+    /* Ajoutez ici les styles souhaités pour votre titre */
+    margin-right: auto; /* Modification */
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    width: 550px;
+    width: 400px;
 }
 
 .menu li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
+    font-weight: 700;
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 2px; 
 }
 
 
 @media all and (max-width: 768px) {
-
     header {
-        background: #fafafa;
+        background: #ffffff;
     }
 
     .toggle {
@@ -38,19 +48,17 @@ nav {
         z-index: 20;
     }
 
-    .logo {
-        position: relative;
-        z-index: 20;
+    .nav-titre {
+        display: none;
     }
 
     .ouvrir {
         display: block;
-        color: #702422;
+        color: white;
     }
 
     .fermer {
         display: none;
-
     }
 
     .open .ouvrir {
@@ -67,7 +75,7 @@ nav {
         left: 0;
         width: 100%;
         height: 100vh;
-        background: #702422;
+        background: #000000;
         flex-direction: column;
         padding: 2rem;
         justify-content: space-around;

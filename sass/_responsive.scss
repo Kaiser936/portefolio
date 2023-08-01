@@ -1,25 +1,12 @@
-/*  Medium device */
-@media screen and (min-width:768px) {
-    header
-    {
-        height: 12vh !important;
+@media (max-width: 767.98px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-
-    main{
-        #competences {
-            .container{
-                display: flex;
-                flex-direction: row !important;
-                justify-content: space-evenly;
-            }
-        }
-    
-        #portefolio {
-            .container{
-                justify-content: space-evenly !important;
-            }
-            
-        }
+    .flex-item {
+        flex: 0 0 20%; /* Ajustez la largeur souhaitée des images sur mobile */
+        max-width: 20%;
+        margin-bottom: 10px; /* Ajoutez un espacement entre les images */
     }
-
 }

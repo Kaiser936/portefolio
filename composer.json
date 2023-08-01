@@ -1,0 +1,11 @@
+{
+    "name": "soufi/portefolio",
+    "autoload": {
+        "psr-4": {
+            "Soufi\\Portefolio\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

@@ -1,12 +1,12 @@
 .card-portefolio {
-    background-color: #702522e4;
+    background-color: black;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 15px;
     width: 100%;
     height: 200px;
-    color: #ffdead;
+    color: white;
 
     img{
         width: 100%;
@@ -24,6 +24,6 @@
 }
 
 .card-portefolio:hover {
-    background-color: #7025225d;
-    color: #ffdead;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
