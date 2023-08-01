@@ -106,13 +106,13 @@
     
         <!-- Portefolio -->
         <section id="portefolio" class="mb-5 pt-5">
-                <div class=" row container justify-content-center">
+                <div class=" row container justify-content-around m-auto">
                     
                         <h4 class="about-me-heading text-center">MON PORTEFOLIO</h4>
                         <p class="text-center font-italic">Présentation de mes dernières réalisations</p>
             
                     <!-- Portefolio 1 -->
-                    <div class="card mr-5" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;">
                         <img src="img/mondefoot.png" class="card-img-top" alt="Le monde du football">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Le Monde du Football</h5>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <!-- Portefolio 2 -->
-                    <div class="card mr-5" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;">
                         <img src="img/mondefoot.png" class="card-img-top" alt="Le monde du football">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Le Monde du Football</h5>
