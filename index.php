@@ -122,11 +122,11 @@
                     </div>
                     <!-- Portefolio 2 -->
                     <div class="card" style="width: 18rem;">
-                        <img src="img/mondefoot.png" class="card-img-top" alt="Le monde du football">
+                        <img src="img/calculatrice.png" class="card-img-top" alt="Le monde du football">
                         <div class="card-body">
-                            <h5 class="card-title font-weight-bold">Le Monde du Football</h5>
-                            <p class="card-text small font-italic">Projet de formation (HTML5/CSS, Bootstrap)</p>
-                            <a href="#" class="btn btn-warning d-block" data-bs-toggle="modal" data-bs-target="#modal2">Voir Plus</a>
+                            <h5 class="card-title font-weight-bold">Calculatrice JS</h5>
+                            <p class="card-text small font-italic">Projet de formation (HTML5/CSS, Js)</p>
+                            <a href="https://kaiser936.github.io/Calculatrice-JS/" class="btn btn-warning d-block" data-bs-toggle="modal" data-bs-target="#modal2">Voir Plus</a>
                         </div>
                     </div>
                     <!-- Portefolio 3 -->
@@ -192,16 +192,16 @@
                         <div class="col-lg-12 mx-auto">
                             <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Le Monde Du Football</h2>
-                            <p class="item-intro text-muted">Site vitrine</p>
+                            <h2 class="text-uppercase">Calculatrice JS</h2>
+                            <p class="item-intro text-muted">App Web</p>
                             <a href="#"><img class="img-fluid d-block mx-auto" src="img/mondefoot.png" alt="Le Monde Du Football"></a>
                             <br><hr>
-                            <p>Site Web responsive :<br>
+                            <p>App Web :<br>
                             Projet Personnel<br>
-                            Développé avec :<br> HTML5/CSS3, Angular JS, Bootstrap, PHP, JavaScript.</p>
+                            Développé avec :<br> HTML5/CSS3, JavaScript.</p>
                             <hr>
                             <ul class="list-inline">
-                                <li>Date: Mai 2023</li>
+                                <li>Date: Avril 2023</li>
                                 <li>Categorie: Site Web</li>
                             </ul>
                             <button type="button" class="btn btn-danger mx-auto d-block" data-bs-dismiss="modal">
