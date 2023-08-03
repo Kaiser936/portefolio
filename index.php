@@ -194,7 +194,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Calculatrice JS</h2>
                             <p class="item-intro text-muted">App Web</p>
-                            <a href="#"><img class="img-fluid d-block mx-auto" src="img/mondefoot.png" alt="Le Monde Du Football"></a>
+                            <a href="#"><img class="img-fluid d-block mx-auto" src="img/calculatrice.png" alt="Le Monde Du Football"></a>
                             <br><hr>
                             <p>App Web :<br>
                             Projet Personnel<br>
